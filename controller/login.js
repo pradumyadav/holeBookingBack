@@ -1,8 +1,8 @@
 //const User = require('./userInfomodel'); // Import userInfomodel
 
-const bcrypt = require('bcrypt');
+// const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const user = require('../model/loginshema');
+// const user = require('../model/loginshema');
 
 const login = async (req, res) => {
     try {
